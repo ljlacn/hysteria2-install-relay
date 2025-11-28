@@ -87,7 +87,7 @@ uninstall_hysteria2() {
 
 show_info() {
     echo -e "${GREEN}--- 当前安装信息 ---${NC}"
-    
+
     if [[ -f "$HY_PATH" ]]; then
         echo "Hysteria2 执行文件：$HY_PATH"
         echo "版本："
